@@ -1,3 +1,13 @@
+
+<?php
+$Kategori1="xxxx";
+$Kategori2="yyyy";
+$Kategori3="zzzz";
+$Kategori4="kkkk";
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -12,23 +22,22 @@
 
 
 <div class="container bg-primary my-5">
-  <!-- row -->
+  
   <div class="row">
 
      <div class="col-sm-12 col-lg-3">
       <ul class="list-group">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-        <li class="list-group-item">A fourth item</li>
-        <li class="list-group-item">And a fifth one</li>
+        <li class="list-group-item"><?php echo $Kategori1 ?></li>
+        <li class="list-group-item"><?php echo $Kategori2 ?></li>
+        <li class="list-group-item"><?php echo $Kategori3 ?></li>
+        <li class="list-group-item"><?php echo $Kategori4 ?></li>
      </ul>
      </div>
 
 
      <div class="col-sm-12 col-lg-9">
         
-        <!-- card -->
+        
         <div class="card">
             <div class="row">
             <div class="col">
@@ -57,13 +66,66 @@
             </div>
 
         </div>
-        <!-- card -->
         
-     </div>
+        
+    
+    </div>
+     
 
+    </div>
   
-  </div>
-  <!-- row -->
+
+  <div class="row my-5">
+
+<div class="col-sm-12 col-lg-3">
+ <ul class="list-group">
+   <li class="list-group-item"><?php echo $Kategori1 ?></li>
+   <li class="list-group-item"><?php echo $Kategori2 ?></li>
+   <li class="list-group-item"><?php echo $Kategori3 ?></li>
+   <li class="list-group-item"><?php echo $Kategori4 ?></li>
+</ul>
+</div>
+
+
+<div class="col-sm-12 col-lg-9">
+   
+   
+   <div class="card">
+       <div class="row">
+       <div class="col">
+           
+           <img src="h_2.png" width="450" height="450">
+           
+       </div>
+
+       <div class="col">
+           <div class="card-body">
+               <h5 class="card-title">Konu Başlığı</h5>
+               <p class="card-text">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, dolores eligendi! Eveniet, ab illo necessitatibus consectetur consequatur, reiciendis veniam rem ipsum expedita possimus repudiandae animi qui nam assumenda, iure harum.
+               </p>
+
+               <div>
+                   <span class="badge bg-primary">105 Yorum</span>
+                   <span class="badge bg-warning">105 Yorum</span>
+                   <span class="badge bg-primary">105 Yorum</span>
+
+               </div>
+
+           </div>
+
+       </div>
+       </div>
+
+   </div>
+   
+   
+</div>
+
+
+</div>
+
+
 </div>
 
 
